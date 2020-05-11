@@ -1,0 +1,203 @@
+/* Estilo para tablets */
+
+@media only screen and (min-width: 788px) and (max-width: 979px)
+{
+
+	/* Qualidade tablet */
+
+	.qualidade:after
+	{
+		right: 66px;
+	}
+
+	.qualidade_lista li
+	{
+		padding: 0 10px;
+	}
+
+	/* Introdução tablet */
+
+	.introducao
+	{
+		height: 440px;
+		padding-top: 80px;
+	}
+
+	/* Produtos tablet */
+
+	.produto_item h2
+	{
+		top: -150px;
+		margin-bottom: -49px;
+	}
+
+	.produto_icone
+	{
+		padding: 41px 0;
+	}
+
+	.produto_info p
+	{
+		font-size: 14px;
+		line-height: 20px;
+		height: 122px;
+		padding: 20px 30px;
+	}
+
+	.produto_info ul li
+	{
+		width: 181px;
+		height: 49px;
+	}
+
+}
+
+/* Estilos para smartphone */
+
+@media only screen and (max-width: 787px)
+{
+
+	/* Header mobile*/
+
+	.header
+	{
+		position: relative;
+		padding-bottom: 0px;
+	}
+
+	.header img
+	{
+		margin: 0 auto 10px auto;
+	}
+
+	.header_menu
+	{
+		text-align: center;
+	}
+
+	.header_menu ul li
+	{
+		margin: 5px;
+	}
+
+	.header_menu ul li a
+	{
+		border: 4px solid #000;
+		width: 135px;
+		display: block;
+		float: left;
+	}
+
+	.header_menu ul li a:hover
+	{
+		color: #fff;
+		border-color: #fff;
+	}
+
+	.header_menu ul li a.menu_ativo
+	{
+		border-color: #fff;
+	}
+
+	/* Introdução mobile */
+
+	.introducao
+	{
+		height: 410px;
+		background: url("../img/bg/bg-mobile.jpg") no-repeat center;
+		background-size: cover;
+		margin-top: 0px;
+		padding-top: 40px;
+	}
+
+	.introducao h1
+	{
+		font-size: 36px;
+	}
+
+	/* Qualidade mobile */
+
+	.qualidade:after
+	{
+		display: none;
+	}
+
+	/* Call to action mobile */
+
+	.call
+	{
+		padding-top: 10px;
+	}
+
+	/* Introdução interna mobile */
+
+	.introducao_interna
+	{
+		margin-top: 0px;
+	}
+
+	/* Sobre mobile */
+
+	.missao_sobre p, .missao_sobre ul li
+	{
+		font-size: 14px;
+		line-height: 20px;
+		padding-right: 0px;
+	}
+
+	/* Produto mobile */
+
+	.produto_item h2
+	{
+		top: -100px;
+		margin-bottom: -68px;
+	}
+
+	.produto_icone
+	{
+		padding: 41px 0;
+	}
+
+	.produto_info p
+	{
+		font-size: 14px;
+		line-height: 20px;
+		height: auto;
+		padding: 20px 30px;
+	}
+
+	.produto_info ul li
+	{
+		width: 149px;
+		height: 49px;
+		font-size: 14px;
+		line-height: 20px;
+		padding-top: 14px;
+	}
+
+		.form
+	{
+		padding-right: 0px;
+	}
+
+	.orcamento_dados ul
+	{
+		padding-right: 0px;
+	}
+
+	/* Contato mobile */
+
+	.contato_form
+	{
+		padding-right: 0px;
+		margin-bottom: 40px;
+	}
+
+	.orcamento
+	{
+		margin-top: 30px;
+		padding: 20px 0;
+	}
+
+}
+

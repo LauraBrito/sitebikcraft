@@ -1,0 +1,19 @@
+.missao_sobre
+{
+	padding-top: 50px;
+}
+
+.missao_sobre p, .missao_sobre ul li
+{
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 1em; 
+	text-align: left;
+	padding-right: 60px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.bg_sobre
+{
+	padding-top: 15px;
+}
